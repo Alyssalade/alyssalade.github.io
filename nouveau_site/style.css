@@ -1,0 +1,100 @@
+/*Mon CSS*/
+
+#content {
+
+	background-color: #E0CEEA ;
+	opacity: 0.8 ;
+	margin-bottom :-0.5em;
+	margin-left: -0.5em;
+	margin-right: -0.5em;
+	padding: 1em;
+	margin : auto;
+	width: 40%;
+
+}
+
+#banniere {
+
+	height : 40em;
+	background-image: url("images/light_painting/piano_2.jpg");
+	background-size: cover;
+	margin-top: -0.5em;
+	margin-left: -0.5em;
+	margin-right: -0.5em;
+
+}
+
+#accueil {
+
+	color : white;
+	font-size: 3em ;
+	font-family: "georgia";
+	margin-left: 5em;
+	position: absolute;
+	margin-top: 5em;
+
+}
+
+#navigation ul {
+
+  	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+
+}
+
+#navigation li {
+
+	display: inline ;
+	border: 3px #12005e solid ;
+	background-color: #12005e ;
+	color : white;
+	margin: auto;
+
+	
+}
+
+
+a {
+
+	text-decoration: none;
+	color: white ;
+}
+
+a:hover {
+
+	text-decoration: underline;
+	color: black;
+}
+
+h2 {
+
+	border: 3px #4a148c solid ;
+	background-color: #4a148c ;
+	min-width: 10em;
+	max-width: 10em;
+	min-height: 1em;
+	max-height: 1em;
+	margin: auto;
+	text-align: center;
+	color: white;
+
+}
+
+article {
+
+	color: black;
+	text-align: center;
+
+
+
+}
+
+.table {
+	display: table;  
+	margin: 0 auto;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	font-size: 1.1em;
+}
