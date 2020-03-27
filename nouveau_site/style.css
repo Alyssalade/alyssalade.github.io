@@ -98,3 +98,43 @@ article {
 	left: 0px;
 	font-size: 1.1em;
 }
+
+p {
+
+	text-align: justify;
+}
+
+.imageflottante {
+
+	float: left;
+}
+
+.imageflottante2 {
+
+	float: right;
+}
+
+
+h3 {
+
+	text-align: left;
+}
+
+.cv {
+
+	text-align: left;
+}
+
+.imageflottante3 {
+
+	float: right;
+}
+
+.imageflottante4 {
+
+	float: left;
+}
+
+.imageflottante5 {
+
+}
