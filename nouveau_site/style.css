@@ -6,7 +6,7 @@
 	padding: 1em;
 	margin : auto;
 	margin-bottom: 0.5em;
-	width: 40%;
+	width: 60%;
 	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 
 }
@@ -71,7 +71,7 @@ h2 {
 	border: 3px #4a148c solid ;
 	background-color: #4a148c ;
 	min-width: 10em;
-	max-width: 10em;
+	max-width: 14em;
 	min-height: 1em;
 	max-height: 1em;
 	margin: auto;
@@ -173,14 +173,21 @@ html {
 	text-align: center;
 }
 
+.miniature img {
+
+
+	overflow: hidden;
+	width: 100%;
+
+
+}
+
 .miniature {
 
 	margin: auto;
 	width: 24%;
 	margin-bottom: 0.4em;
-	overflow: hidden;
-
-
+	display: inline-block;
 }
 
 .miniatures {
@@ -188,7 +195,6 @@ html {
 	 display: flex;
      flex-wrap: wrap;
      padding: 0.2em;
-     transition: transform 5s ease;
 
 
 }
@@ -205,3 +211,71 @@ html {
     	width:80%;
     }
    }
+
+.galerie {
+
+	 display: flex;
+     flex-wrap: wrap;
+     padding: 0.2em;
+     transition: transform 5s ease;
+
+}
+
+.peur {
+
+	margin: auto;
+	width: 45%;
+	margin-bottom: 0.4em;
+	display: inline-block;
+}
+
+.peur:hover {
+
+	transform: scale(1.5);
+}
+
+.animation {
+
+	margin: auto;
+	width: 45%;
+	margin-bottom: 0.4em;
+	display: inline-block;
+
+}
+
+.geste {
+
+	margin: auto;
+	width: 45%;
+	margin-bottom: 0.4em;
+	display: inline-block;
+}
+
+.geste:hover {
+
+	transform: scale(1.2);
+
+}
+
+.oracle {
+
+	margin: auto;
+	width: 20%;
+	margin-bottom: 0.4em;
+	display: inline-block;
+
+}
+
+.bete {
+
+	margin: auto;
+	width: 45%;
+	margin-bottom: 0.4em;
+	display: inline-block;
+
+}
+
+.bete:hover {
+
+	transform: scale(1.2);
+}
