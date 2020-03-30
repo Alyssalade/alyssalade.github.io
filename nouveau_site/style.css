@@ -279,3 +279,55 @@ html {
 
 	transform: scale(1.2);
 }
+
+.final {
+
+ 	margin: auto;
+	width: 45%;
+	margin-bottom: 0.4em;
+	display: inline-block;
+
+}
+
+.bijou {
+
+	margin: auto;
+	width: 45%;
+	margin-bottom: 0.4em;
+	display: inline-block;
+}
+
+.carnet {
+
+	margin: auto;
+	width: 45%;
+	margin-bottom: 0.4em;
+	display: inline-block;
+
+}
+
+.carnet:hover {
+
+	transform: scale(1.6);
+}
+
+.gravure {
+
+	margin: auto;
+	width: 45%;
+	margin-bottom: 0.4em;
+	display: inline-block;
+}
+
+.exo {
+
+	margin: auto;
+	width: 45%;
+	margin-bottom: 0.4em;
+	display: inline-block;
+}
+
+.exo:hover {
+
+	transform: scale(1.6);
+}
