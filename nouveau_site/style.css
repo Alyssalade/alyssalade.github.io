@@ -1,5 +1,11 @@
 /*Mon CSS*/
 
+body {
+
+	font-family: "georgia";
+}
+
+
 #content {
 
 	background-color: #E0CEEA ;
@@ -27,7 +33,6 @@
 
 	color : white;
 	font-size: 3em ;
-	font-family: "georgia";
 	margin-left: 5em;
 	position: absolute;
 	margin-top: 5em;
@@ -44,11 +49,14 @@
 
 #navigation li {
 
-	display: inline ;
+	list-style: none;
 	border: 3px #12005e solid ;
 	background-color: #12005e ;
 	color : white;
 	margin: auto;
+	margin-top: 0.5em;
+	text-align: center;
+	font-size: 1.2em;
 
 	
 }
@@ -102,7 +110,7 @@ article {
 p {
 
 	text-align: justify;
-}
+	}
 
 .imageflottante {
 
@@ -159,18 +167,20 @@ html {
 	border: 3px #4a148c solid ;
 	background-color: #4a148c ;
 	min-width: 10em;
-	max-width: 10em;
+	max-width: 12em;
 	min-height: 1em;
 	max-height: 1em;
 	margin: auto;
 	text-align: center;
 	color: white;
+	font-size: 1.5em;
 
 }
 
 .adresse {
 
 	text-align: center;
+	font-size: 1.2em;
 }
 
 .miniature img {
@@ -206,11 +216,30 @@ html {
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     #content{
     	width:80%;
     }
+
+    #navigation li {
+
+    	display: inline; 
+    	font-size: 1em;
+
+    }
+
+    #accueil {
+
+    	margin-left: 1em;
+    }
+
+    .miniature {
+
+    	width: 49%;
+    }
    }
+
+
 
 .galerie {
 
