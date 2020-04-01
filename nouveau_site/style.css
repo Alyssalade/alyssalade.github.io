@@ -331,3 +331,20 @@ html {
 
 	transform: scale(1.6);
 }
+
+.dessin {
+
+	margin: auto;
+	width: 45%;
+	margin-bottom: 0.4em;
+	display: inline-block;
+}
+
+.dessinlong {
+
+	margin: auto;
+	width: 100%;
+	margin-bottom: 0.4em;
+	display: inline-block;
+}
+
