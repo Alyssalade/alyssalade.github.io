@@ -377,3 +377,12 @@ html {
 	display: inline-block;
 }
 
+.fil {
+
+	margin: auto;
+	width: 45%;
+	margin-bottom: 0.4em;
+	display: inline-block;
+
+}
+
